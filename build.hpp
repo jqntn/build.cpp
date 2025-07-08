@@ -1,10 +1,13 @@
 #pragma once
 
+#pragma warning(push)
+#pragma warning(disable : 4530)
 #include <cstdio>
 #include <cstdlib>
 #include <filesystem>
 #include <string>
 #include <vector>
+#pragma warning(pop)
 
 namespace fs = std::filesystem;
 
