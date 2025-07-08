@@ -1,4 +1,4 @@
-﻿#include "CMakeProject1.h"
+﻿#include "hello.h"
 
 using namespace std;
 

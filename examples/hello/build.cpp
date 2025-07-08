@@ -1,6 +1,6 @@
 // cl /std:c++20 /EHsc build.cpp && build && del build.exe build.obj
 
-#include "build.hpp"
+#include "../../build.hpp"
 
 int
 main()
