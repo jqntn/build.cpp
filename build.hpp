@@ -1,16 +1,18 @@
 #pragma once
 
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+
 #pragma warning(push)
 #pragma warning(disable : 4530)
 #include <cstdio>
 #include <cstdlib>
-#include <filesystem>
+#include <experimental/filesystem>
 #include <iostream>
 #include <string>
 #include <vector>
 #pragma warning(pop)
 
-namespace fs = std::filesystem;
+namespace fs = std::experimental::filesystem;
 
 enum log_severity : char
 {
